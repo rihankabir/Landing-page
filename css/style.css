@@ -1,0 +1,23 @@
+.hero{
+	padding: 100px 0;
+}
+ .card-img-container {
+      position: relative;
+    }
+    .card-img-container::after {
+  content: "$29.99";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.banner{
+	padding: 100px 0;
+}
+.design{
+	padding: 100px 0;
+}
